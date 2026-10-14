@@ -1,12 +1,20 @@
 import { Attraction, FoodDish, TicketPackage } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_louisland_park_1791983071690.jpg';
-export const PARKOUR_IMAGE = '/src/assets/images/louisland_parkour_park_1791983888184.jpg';
-export const LOOPING_IMAGE = '/src/assets/images/louisland_looping_challenge_1791983889951.jpg';
-export const SALLY_LAND_IMAGE = '/src/assets/images/louisland_sally_land_1791983890116.jpg';
-export const RESTAURANT_IMAGE = '/src/assets/images/louisland_restaurant_food_1791983889737.jpg';
-export const HYPERCOASTER_IMAGE = '/src/assets/images/louisland_hypercoaster_1791983074769.jpg';
-export const CASTLE_IMAGE = '/src/assets/images/louisland_magical_castle_1791983074719.jpg';
+import heroImg from '../assets/images/hero_louisland_park_1791983071690.jpg';
+import parkourImg from '../assets/images/louisland_parkour_park_1791983888184.jpg';
+import loopingImg from '../assets/images/louisland_looping_challenge_1791983889951.jpg';
+import sallyImg from '../assets/images/louisland_sally_land_1791983890116.jpg';
+import restoImg from '../assets/images/louisland_restaurant_food_1791983889737.jpg';
+import hypercoasterImg from '../assets/images/louisland_hypercoaster_1791983074769.jpg';
+import castleImg from '../assets/images/louisland_magical_castle_1791983074719.jpg';
+
+export const HERO_IMAGE = heroImg;
+export const PARKOUR_IMAGE = parkourImg;
+export const LOOPING_IMAGE = loopingImg;
+export const SALLY_LAND_IMAGE = sallyImg;
+export const RESTAURANT_IMAGE = restoImg;
+export const HYPERCOASTER_IMAGE = hypercoasterImg;
+export const CASTLE_IMAGE = castleImg;
 
 export const ATTRACTIONS: Attraction[] = [
   {

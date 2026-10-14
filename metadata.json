@@ -1,0 +1,6 @@
+{
+  "name": "Louisland - Parc d'Attraction",
+  "description": "Site officiel du parc d'attraction Louisland. Réservez vos billets en ligne et découvrez nos attractions sensationnelles et féeriques.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
